@@ -13,4 +13,5 @@ interface ActivityComponent{
     fun inject(mainActivity: MainActivity)
 
     fun inject(detailActivity: DetailActivity)
+
 }

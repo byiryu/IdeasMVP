@@ -22,7 +22,7 @@ import javax.inject.Inject
 import kotlin.math.sign
 
 
-class DetailPresenter<T : DetailContract.View > @Inject constructor() : BasePresenter<  T>(), DetailContract.Presenter<T>{
+class DetailPresenter<T : DetailContract.View > @Inject constructor() : BasePresenter<T>(), DetailContract.Presenter<T>{
 
 
     @Inject

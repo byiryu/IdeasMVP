@@ -28,6 +28,7 @@
         <activity android:name=".ui.detail.DetailActivity"
             android:theme="@style/DetailTheme"
             />
+
     </application>
 
 </manifest>

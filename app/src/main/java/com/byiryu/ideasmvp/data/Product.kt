@@ -3,19 +3,13 @@ package com.byiryu.ideasmvp.data
 import com.google.gson.annotations.SerializedName
 import java.io.Serializable
 
-class Product : Serializable{
-
+data class Product constructor(
     @SerializedName("thumbnail_520")
-    var thumbnail : String? = null
-
-    @SerializedName("id")
-    var id : Int? = -1
-
-    @SerializedName("seller")
-    var seller : String? = null
-
-    @SerializedName("title")
+    var thumbnail : String? = null,
+    var id : Int? = -1,
+    var seller : String? = null,
     var title : String? = null
+) : Serializable{
 
     override fun toString(): String {
         return "Product(thumbnail=$thumbnail, id=$id, seller=$seller, title=$title)"

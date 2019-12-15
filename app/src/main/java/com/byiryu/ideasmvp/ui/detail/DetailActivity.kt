@@ -126,7 +126,7 @@ class DetailActivity : BaseActivity(), DetailContract.View{
         else
             detail_discount_rate.text = "-"+productDetail.discount_rate
 
-        detail_desc.text = productDetail.discription
+        detail_desc.text = productDetail.description
         detail_cost.text = productDetail.cost
 
     }

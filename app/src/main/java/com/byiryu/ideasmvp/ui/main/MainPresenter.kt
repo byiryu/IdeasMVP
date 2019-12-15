@@ -42,6 +42,8 @@ class MainPresenter<T : MainContract.View > @Inject constructor() : BasePresente
 
     lateinit var handler: Handler
 
+
+
     var page : Int = 0
 
     override fun getProduct(context: Context, page : Int) {
@@ -87,7 +89,6 @@ class MainPresenter<T : MainContract.View > @Inject constructor() : BasePresente
     }
 
 
-
     override fun LoadMore() {
         handler = Handler()
         handler.postDelayed({
@@ -125,7 +126,6 @@ class MainPresenter<T : MainContract.View > @Inject constructor() : BasePresente
         intent.putExtra("product", addItems[position])
         getMvpView().setTransition(imageView)
         getMvpView().goActivity(intent)
-
     }
 
 

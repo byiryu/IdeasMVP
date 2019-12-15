@@ -19,13 +19,13 @@
 
 
         <ImageView
-            android:id="@+id/product_img"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            android:layout_width="match_parent"
-            android:layout_height="392dp">
-        </ImageView>
+          android:id="@+id/product_img"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          android:layout_width="match_parent"
+          android:layout_height="392dp">
+      </ImageView>
 
         <!-- top images layout  -->
         <androidx.constraintlayout.widget.ConstraintLayout

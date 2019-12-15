@@ -40,9 +40,7 @@ class CustomGlideRounded @JvmOverloads constructor(
     constructor(
         context: Context, radius: Int, margin: Int,
         cornerType: CornerType = CornerType.ALL
-    ) : this(Glide.get(context).bitmapPool, radius, margin, cornerType) {
-
-    }
+    ) : this(Glide.get(context).bitmapPool, radius, margin, cornerType)
 
     init {
         mDiameter = mRadius * 2

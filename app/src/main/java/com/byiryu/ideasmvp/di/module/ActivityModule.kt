@@ -55,6 +55,7 @@ class ActivityModule constructor(appCompatActivity: AppCompatActivity){
 
 
 
+
     /**
      * Recycler
      */
